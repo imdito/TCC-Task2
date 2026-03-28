@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#btn-submit {
+    background-color: #28a745;
+    color: white;
+}
+
+#btn-cancel {
+    background-color: #6c757d;
+    color: white;
+}
+
+.catatan-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.catatan-card h3 {
+    margin: 0 0 10px 0;
+}
+
+.catatan-card p {
+    margin: 0 0 15px 0;
+    color: #555;
+    white-space: pre-wrap;
+}
+
+.catatan-card small {
+    display: block;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.btn-group button {
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.btn-edit {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.btn-hapus {
+    background-color: #dc3545;
+    color: white;
+}
